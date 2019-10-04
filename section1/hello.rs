@@ -16,5 +16,23 @@ fn main() {
     f.push_str("Hello");
     // e = String::from('Hello');
     println!("{}", f);
-
+    
+    let mut g = 10;
+    g += 5;
+    println!("{}", g);
+    
+    // comment
+    /*
+    Hello world program
+    */
+    
+    // shadowing
+    let a = 10;
+    let a = 20;
+    println!("Hello, world! {}", a);
+    
+    //typecasting
+    let a :i32 =10;
+    // let b: i64 = a as i64;
+    let b: i64 = a as i64 + 10;
 }
